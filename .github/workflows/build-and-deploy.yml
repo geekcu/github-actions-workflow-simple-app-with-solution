@@ -1,11 +1,11 @@
 name: Build and Deploy to Azure
 
 env:
-  AZURE_CONTAINER_REGISTRY_NAME: "raytestacrau"  # set this to the name of your Azure Container Registry
-  AZURE_CONTAINER_REGISTRY: "raytestacrau.azurecr.io"
+  AZURE_CONTAINER_REGISTRY_NAME: "rayghademo"  # set this to the name of your Azure Container Registry
+  AZURE_CONTAINER_REGISTRY: "rayghademo.azurecr.io"
   CONTAINER_NAME: "hello-world"
-  RESOURCE_GROUP: "test-rg"
-  CLUSTER_NAME: "raytestakscluster"
+  RESOURCE_GROUP: "github-actions-demo-rg"
+  CLUSTER_NAME: "rayk8s"
   DEPLOYMENT_MANIFEST_PATH: "kubernetes"
 
 # Retrive below secrets from GitHub Actions Secrets
