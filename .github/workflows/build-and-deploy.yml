@@ -33,7 +33,7 @@ jobs:
         uses: docker/setup-buildx-action@v2
         
       - name: Azure Container Registry Login
-        uses: Azure/docker-login@v1
+        uses: Azure/docker-login@dev
         with:
           # Container registry username
           username: ${{ env.AZURE_CONTAINER_REGISTRY_NAME }}
